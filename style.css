@@ -1,0 +1,31 @@
+.container{
+  width: 200px;
+  border: 1px solid gray;
+  border-radius: 5px;
+  padding: 10px;
+}
+
+.display{
+  width: 95%;
+  border: none;
+  font-size:40px;
+}
+
+.btn_container{
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+  align-items: center;
+  margin-top: 10px;
+}
+
+button{
+  height: 50px;
+  width: 50px;
+  margin: 5px;
+  border-radius: 100%;
+  border: none;
+  cursor: pointer;
+  font-size: 15px;
+  font-weight: 800;
+}
